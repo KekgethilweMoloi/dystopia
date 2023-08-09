@@ -1,0 +1,28 @@
+/*Body*/
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+/* NAV BAR*/
+nav{
+    /*basic layout*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4F5E63;
+    /*extras*/
+}
+nav .logo{
+    /*basic layout*/
+    display: flex;
+    /*extras*/
+
+}
+/*HEADER SECTION*/
+
+/*SECTION TWO*/
+/*SECTION THREE*/
+/*SECTION FOUR*/
+/*FOOTER*/
