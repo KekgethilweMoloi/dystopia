@@ -19,6 +19,8 @@ nav{
     align-items: center;
     /*extras*/
     background-color: transparent;
+    margin-top: 5px;
+    margin: 0 30px;
 }
 nav .logo{
     /*basic layout*/
@@ -41,7 +43,44 @@ nav .logo{
     padding: 10px;
     text-decoration: none;
 }
+
 /*HEADER SECTION*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    color: #a5a59d;
+    margin: 30px;
+    padding: 0 20px;
+    height: 400px;
+    border: solid #596269;
+}
+
+.header .info{
+    max-width: 50%;
+}
+
+#one{
+    font-size: 48px;
+}
+
+#one #A{
+    color: #041423;
+}
+#one #B{
+    color: #47585c;
+}
+#one #C{
+    color: #946444;
+}
+
+#two,
+#three{
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
 
 /*SECTION TWO*/
 /*SECTION THREE*/
