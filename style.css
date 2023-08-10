@@ -1,8 +1,14 @@
+/*html*/
+html{
+    background-color: #000000;
+}
+
 /*Body*/
 body{
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    font-family: "Courier New";
 }
 
 /* NAV BAR*/
@@ -11,14 +17,29 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4F5E63;
     /*extras*/
+    background-color: transparent;
 }
 nav .logo{
     /*basic layout*/
     display: flex;
     /*extras*/
+    align-items: center;
+}
 
+.logo p{
+    color: #a5a59d;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.links a{
+    color: #a5a59d;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
 }
 /*HEADER SECTION*/
 
