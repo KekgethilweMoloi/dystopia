@@ -84,7 +84,67 @@ nav .logo{
 
 /*SECTION TWO*/
 .sectTwo{
-    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 30px;
+    padding: 0 20px;
+    height: 450px;
+    border: 5px solid #799FB2;
+
+}
+
+.block1,
+.block2,
+.block3,
+.block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 25px;
+ 
+}
+
+.block1 #four{
+    flex-wrap: wrap;
+    color: #799FB2;
+    max-width: 250px;
+}
+
+.block1 img {
+    border: 5px solid #799FB2;
+}
+
+.block2 #five{
+    flex-wrap: wrap;
+    color: #42634A;
+    max-width: 250px;
+}
+
+.block2 img {
+    border: 5px solid #42634A;
+}
+
+.block3 #six{
+    flex-wrap: wrap;
+    color: #DA9B45;
+    max-width: 250px;
+}
+
+.block3 img {
+    border: 5px solid #DA9B45;
+}
+
+.block4 #seven{
+    flex-wrap: wrap;
+    color: #596269;
+    max-width: 250px;
+}
+
+.block4 img {
+    border: 5px solid #596269;
 }
 /*SECTION THREE*/
 /*SECTION FOUR*/
