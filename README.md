@@ -1,8 +1,8 @@
 # dystopia
 
 Dystopia is an attempt at a landing page / guide to different dystopian societies.
-This guide is not to be taken factual as most of the information contained here 
-is sourced from anime, manga and random wattpad (machine translated) novels.
+This guide is not to be taken as factual as most of the information contained here 
+is sourced from memories of different anime, manga and random wattpad (machine translated) novels.
 
 This guide was also created with the help of lessons from The Odin Project.
 
