@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     max-width: 100%;
     font-family: "Courier New";
+    min-width: fit-content;
 }
 
 
@@ -99,7 +100,7 @@ nav .logo{
 }
 .inner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     max-width: 100%;
     margin: 30px;
@@ -148,6 +149,32 @@ nav .logo{
 .block5 img {
     border: 5px solid #596269;
 }
+
+
 /*SECTION THREE*/
+.sectThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    color: #041423;
+    margin: 30px;
+    padding: 0 20px;
+    height: 400px;
+    border: solid #47585c;
+    background-color: #47585c;
+    opacity: 50%;
+}
+.poem{
+    padding-top: 20px;
+    flex-wrap: wrap;
+    max-width: 480px;
+}
+#eight{
+    align-self: flex-end;
+    padding: 0px;
+    font-style: italic;
+}
 /*SECTION FOUR*/
 /*FOOTER*/
