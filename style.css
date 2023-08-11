@@ -3,6 +3,7 @@ html{
     background-color: #000000;
 }
 
+
 /*Body*/
 body{
     display: flex;
@@ -10,6 +11,7 @@ body{
     max-width: 100%;
     font-family: "Courier New";
 }
+
 
 /* NAV BAR*/
 nav{
@@ -28,14 +30,12 @@ nav .logo{
     /*extras*/
     align-items: center;
 }
-
 .logo p{
     color: #a5a59d;
     font-weight: bold;
     font-size: 24px;
     padding: 10px;
 }
-
 .links a{
     color: #a5a59d;
     font-weight: bold;
@@ -43,6 +43,7 @@ nav .logo{
     padding: 10px;
     text-decoration: none;
 }
+
 
 /*HEADER SECTION*/
 .header{
@@ -56,15 +57,12 @@ nav .logo{
     height: 400px;
     border: solid #596269;
 }
-
 .header .info{
     max-width: 50%;
 }
-
 #one{
     font-size: 48px;
 }
-
 #one #A{
     color: #041423;
 }
@@ -74,7 +72,6 @@ nav .logo{
 #one #C{
     color: #946444;
 }
-
 #two,
 #three{
     font-size: 18px;
@@ -85,69 +82,70 @@ nav .logo{
 /*SECTION TWO*/
 .sectTwo{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px;
+    padding: 0 20px;
+    height: 500px;
+}
+.block1 p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #a5a59d;
+    align-items: center;
+    margin: 0;
+}
+.inner{
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     max-width: 100%;
     margin: 30px;
     padding: 0 20px;
     height: 450px;
-    border: 5px solid #799FB2;
-
 }
-
-.block1,
 .block2,
 .block3,
-.block4{
+.block4,
+.block5{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1000px;
     margin: 25px;
- 
 }
-
-.block1 #four{
+#four,
+#five,
+#six,
+#seven{
     flex-wrap: wrap;
-    color: #799FB2;
     max-width: 250px;
     text-align: center;
 }
-
-.block1 img {
+.block2 #four{
+    color: #799FB2;
+}
+.block2 img {
     border: 5px solid #799FB2;
 }
-
-.block2 #five{
-    flex-wrap: wrap;
+.block3 #five{
     color: #42634A;
-    max-width: 250px;
-    text-align: center;
 }
-
-.block2 img {
+.block3 img {
     border: 5px solid #42634A;
 }
-
-.block3 #six{
-    flex-wrap: wrap;
+.block4 #six{
     color: #DA9B45;
-    max-width: 250px;
-    text-align: center;
 }
-
-.block3 img {
+.block4 img {
     border: 5px solid #DA9B45;
 }
-
-.block4 #seven{
-    flex-wrap: wrap;
+.block5 #seven{
     color: #596269;
-    max-width: 250px;
-    text-align: center;
 }
-
-.block4 img {
+.block5 img {
     border: 5px solid #596269;
 }
 /*SECTION THREE*/
