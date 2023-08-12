@@ -228,3 +228,20 @@ nav .logo{
 }
 
 /*FOOTER*/
+
+footer{
+    /*basic layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*extras*/
+    margin-top: 3px;
+    margin: 0 30px;
+}
+.credits{
+    text-align: center;
+}
+.credits p{
+    color: #a5a59d;
+    font-size: 18px;
+}
