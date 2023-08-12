@@ -33,13 +33,13 @@ nav .logo{
 }
 .logo p{
     color: #a5a59d;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     padding: 10px;
 }
 .links a{
     color: #a5a59d;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 18px;
     padding: 10px;
     text-decoration: none;
@@ -61,6 +61,15 @@ nav .logo{
 .header .info{
     max-width: 50%;
 }
+#a{
+    color: #a5a59d;
+    background-color: #041423;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
 #one{
     font-size: 48px;
 }
@@ -79,7 +88,6 @@ nav .logo{
     flex-wrap: wrap;
 }
 
-
 /*SECTION TWO*/
 .sectTwo{
     display: flex;
@@ -93,7 +101,7 @@ nav .logo{
 }
 .block1 p{
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 600;
     color: #a5a59d;
     align-items: center;
     margin: 0;
@@ -158,13 +166,13 @@ nav .logo{
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-    color: #041423;
     margin: 30px;
     padding: 0 20px;
     height: 400px;
-    border: solid #47585c;
-    background-color: #47585c;
-    opacity: 50%;
+    border: solid #0F151A;
+    background-color: #0F151A;
+    opacity: 70%;
+    color: #a5a59d;
 }
 .poem{
     padding-top: 20px;
@@ -176,5 +184,47 @@ nav .logo{
     padding: 0px;
     font-style: italic;
 }
+
+
 /*SECTION FOUR*/
+.sectFour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px;
+    padding: 0 10px;
+    height: 200px;
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #a5a59d;
+    height: fit-content;
+    margin: 10px;
+    padding: 0 150px;
+    background-color: #041423;
+    border-radius: 8px;
+
+}
+#nine{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0;
+}
+#ten{
+    padding-right: 200px;
+}
+#b{
+    color: #041423;
+    background-color: #a5a59d;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
 /*FOOTER*/
